@@ -5,11 +5,25 @@
     <Authors>Kyle Parrish</Authors>
     <Company>Natadon Technologies</Company>
     <Copyright>2020</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/Natadon/DataAccess.MySql</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Natadon/DataAccess.MySql</RepositoryUrl>
+    <PackageTags>DataAccess</PackageTags>
+    <Description>This is the MySql implementation of the Natadon data access core library</Description>
+
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="MySql.Data" Version="8.0.21" />
     <PackageReference Include="Natadon.DataAccess.Core" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
