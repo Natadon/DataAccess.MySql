@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Kyle Parrish</Authors>
+    <Company>Natadon Technologies</Company>
+    <Copyright>2020</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.21" />
+    <PackageReference Include="Natadon.DataAccess.Core" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
