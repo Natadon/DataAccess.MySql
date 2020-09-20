@@ -6,7 +6,7 @@ using System.Data;
 
 namespace Natadon.DataAccess.MySql
 {
-    class MySqlDataAccess : IDataAccess
+    public class MySqlDataAccess : IDataAccess
     {
         private readonly string connectionString;
         private MySqlCommand command;
