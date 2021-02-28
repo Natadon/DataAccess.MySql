@@ -20,7 +20,7 @@
 
   <ItemGroup>
     <PackageReference Include="MySql.Data" Version="8.0.21" />
-    <PackageReference Include="Natadon.DataAccess.Core" Version="1.0.0" />
+    <PackageReference Include="Natadon.DataAccess.Core" Version="1.0.1" />
   </ItemGroup>
 
   <ItemGroup>
