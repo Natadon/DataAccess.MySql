@@ -1,26 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <Authors>Kyle Parrish</Authors>
     <Company>Natadon Technologies</Company>
-    <Copyright>2020</Copyright>
+    <Copyright>2024</Copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/Natadon/DataAccess.MySql</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Natadon/DataAccess.MySql</RepositoryUrl>
     <PackageTags>DataAccess</PackageTags>
     <Description>This is the MySql implementation of the Natadon data access core library</Description>
 
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
 
-    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
 
-    <FileVersion>1.0.2.0</FileVersion>
+    <FileVersion>1.0.3.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MySql.Data" Version="8.0.21" />
-    <PackageReference Include="Natadon.DataAccess.Core" Version="1.0.1" />
+    <PackageReference Include="MySql.Data" Version="8.3.0" />
+    <PackageReference Include="Natadon.DataAccess.Core" Version="1.0.3" />
   </ItemGroup>
 
   <ItemGroup>
